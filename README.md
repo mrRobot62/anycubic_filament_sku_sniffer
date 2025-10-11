@@ -1,12 +1,15 @@
 # How to use the sniffer :-)
 
 ## Parameters
-`--url` : whicht AC side shoud be sniffed. Possibel to use this parameter several times
-`--region`: however between US/EN & DE websides there are different source codes which are searched for SKUs. German is default `--region de`, `--region us`, `--region en`
-`--with-source`: if set, the URL is printed in the table as well
-`--out`: create an output file 
-`--md`: instead of PrettyTable use Markdown table
-`--unique-colors`: create a second table with unique color-codes (part of SKU) for all Filaments. Hu. AC use same color-code but name them differently.
+- `--url` : whicht AC side shoud be sniffed. Possibel to use this parameter several times
+- `--region`: however between US/EN & DE websides there are different source codes which are searched for SKUs. German is default `--region de`, `--region us`, `--region en`
+- `--with-source`: if set, the URL is printed in the table as well
+- `--out`: create an output file 
+- `--md`: instead of PrettyTable use Markdown table
+- `--unique-colors`: create a second table with unique color-codes (part of SKU) for all Filaments. Hu. AC use same color-code but name them differently.
+
+uhhh, source code comments and help were written in German - sorry guys - I forgot to write in english
+
 
 # Simple US-Example with three US-Websides
 - output into a file
