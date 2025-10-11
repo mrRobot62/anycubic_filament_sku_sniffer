@@ -1278,7 +1278,7 @@ python ac_filament_sku_sniffer.py \
 | HYGYL-101 | PLA Matte | Yellow |
 # SKU-Conclusion
 - A? → optional “Anycubic” prefix
-- H → main header
+- H → main Header or perhaps a reference to the hotend (because of product type: filament)
 - subcode → material type identifier
 - color → color code (2–3 letters or with numeric suffix)
 - A?num → optional serial or refill number
