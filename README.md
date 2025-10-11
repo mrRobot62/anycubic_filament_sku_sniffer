@@ -900,11 +900,12 @@ python ac_filament_sku_sniffer.py \
 | Segment | Meaning | Example | Comment |
 |----------|----------|----------|----------|
 | **A** | Series / generation prefix (optional) | `A` in `AHPLBK-105` | Usually stands for *Anycubic* or a series ID |
-| **H** | Core filament prefix | `H` | Present in all filament SKUs |
+| **H** | Core filament prefix | `H` | Present in all filament SKUs = `H` Header/Hotend ?|
 | **<Subcode>** | Material group and subtype | `PLP` | Defines material (PLA, PETG, TPU, etc.) |
 | **<ColorCode>** | 2–3 letter color code | `BK`, `GY`, `PO` | Matches the official color abbreviation |
 | **-<Number>** | Version or revision code | `-105` | Usually 101–107; internal versioning or batch |
 
+> `H`=Hotend maybe these SKUs are for FDM-Filaments. Will check if resin have simlar codings
 ---
 
 ## 2️⃣ Breakdown by Material Type
