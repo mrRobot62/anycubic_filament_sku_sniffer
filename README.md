@@ -18,7 +18,7 @@ uhhh, source code comments and help were written in German - sorry guys - I forg
 - print url inside table
 - create a unique-color table additionally
 
-anycubic-nfc-filament % pythonac_filament_sku_sniffer.py \
+python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/petg-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
