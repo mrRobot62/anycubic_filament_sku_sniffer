@@ -68,7 +68,10 @@ python ac_filament_sku_sniffer.py \
 --url "https://de.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result.txt
 
-# Example Output
+# Example Output (US/EN-Names)
+
+> **NOTE:** Do not wonder about same color several times. Reason is, that it is possible to order on US-Sides but ship to coutries outside US like EU/UK/OTHERS with different prices
+
 ## Markdown-Table
 ### Varianten
 
@@ -810,7 +813,7 @@ python ac_filament_sku_sniffer.py \
 | PLA Glow | 37.19 USD | Green | HFGGN-103 | https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl |
 | PLA Glow | 30.99 USD | Green | HFGGN-103 | https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl |
 
-### Color, Color-Code, Filaments
+### Color, Color-Code, Filaments (US/EN-Names)
 | Color | ID | Products |
 | --- | --- | --- |
 | Black Gold | 07 | PLA Silk Dual/Tri-Color |
