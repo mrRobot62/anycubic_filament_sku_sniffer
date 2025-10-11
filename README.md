@@ -1086,6 +1086,196 @@ python ac_filament_sku_sniffer.py \
 
 ---
 
+## Complete list of SKUs, Colors, Filaments
+SKU          | Filament                | Color              
+-------------+-------------------------+--------------------
+AHHSBK-102   | PLA High Speed          | Black              
+AHHSBR-102   | PLA High Speed          | Red                
+AHHSBW-101   | PLA High Speed          | Bright White       
+AHHSCG-101   | PLA High Speed          | Green              
+AHHSDB-101   | PLA High Speed          | Blue               
+AHHSGY-102   | PLA High Speed          | Texture Grey       
+AHHSGY-103   | PLA High Speed          | Texture Grey       
+AHHSPO-102   | PLA High Speed          | Purple             
+AHHSSP-102   | PLA High Speed          | Strawberry Pink    
+AHHSVO-102   | PLA High Speed          | Vibrant Orange     
+AHHSVY-103   | PLA High Speed          | Yellow             
+AHLSBR-101   | PLA Marble              | Brick Red          
+AHLSMW-101   | PLA Marble              | Marble White       
+AHPEAB-101   | PETG Filament           | Lake Blue          
+AHPEBK-101   | PETG Filament           | Black              
+AHPEBR-101   | PETG Filament           | Brown              
+AHPEBW-101   | PETG Filament           | White              
+AHPECG-101   | PETG Filament           | Green              
+AHPECL-101   | PETG Filament           | Clear              
+AHPECR-101   | PETG Filament           | Cream              
+AHPEDB-101   | PETG Filament           | Blue               
+AHPEDG-101   | PETG Filament           | Dark Grey          
+AHPEFG-101   | PETG Filament           | Forest Green       
+AHPEGE-101   | PETG Filament           | Grey               
+AHPEGY-101   | PETG Filament           | Texture Grey       
+AHPELB-101   | PETG Filament           | Beige              
+AHPELG-101   | PETG Filament           | Lime Green         
+AHPEPB-101   | PETG Filament           | Peanut Brown       
+AHPEPO-101   | PETG Filament           | Purple             
+AHPERR-101   | PETG Filament           | Red                
+AHPESL-101   | PETG Filament           | Texture Silver     
+AHPESP-101   | PETG Filament           | Pink               
+AHPETB-101   | PETG Filament           | Translucent Blue   
+AHPETG-101   | PETG Filament           | Translucent Grey   
+AHPETK-101   | PETG Filament           | Translucent Pink   
+AHPETL-101   | PETG Filament           | Translucent Olive  
+AHPETO-101   | PETG Filament           | Translucent Orange 
+AHPETP-101   | PETG Filament           | Translucent Purple 
+AHPETR-101   | PETG Filament           | Translucent Green  
+AHPETW-101   | PETG Filament           | Translucent Brown  
+AHPEVO-101   | PETG Filament           | Orange             
+AHPEVY-101   | PETG Filament           | Yellow             
+AHPLBK-105   | PLA Basic               | Black              
+AHPLBK-A106  | PLA Basic Refill        | Black              
+AHPLBR-105   | PLA Basic               | Brown              
+AHPLBW-105   | PLA Basic               | White              
+AHPLBW-A106  | PLA Basic Refill        | White              
+AHPLBZ-105   | PLA Basic               | Bronze             
+AHPLCG-105   | PLA Basic               | Classic Green      
+AHPLCG-A106  | PLA Basic Refill        | Green              
+AHPLCL-105   | PLA Basic               | Clear              
+AHPLCY-105   | PLA Basic               | Cyan               
+AHPLDB-105   | PLA Basic               | Blue (Navy blue)   
+AHPLDB-A106  | PLA Basic Refill        | Blue               
+AHPLGE-106   | PLA Basic               | Gray               
+AHPLGF-105   | PLA Basic               | FLash Green        
+AHPLGY-105   | PLA Basic               | Texture Gray       
+AHPLGY-A106  | PLA Basic Refill        | Texture Grey       
+AHPLKB-105   | PLA Basic               | Dark Brown         
+AHPLLB-105   | PLA Basic               | Beige              
+AHPLMG-105   | PLA Basic               | Magenta            
+AHPLP16-107  | PLA+                    | Peach Pink         
+AHPLP17-107  | PLA+                    | Interstellar Violet
+AHPLP18-107  | PLA+                    | Tropical Turquoise 
+AHPLP19-107  | PLA+                    | Spring Leaf        
+AHPLPBK-102  | PLA+                    | Black              
+AHPLPBK-A108 | PLA+ Refill             | Black              
+AHPLPBR-106  | PLA+                    | Bright Red         
+AHPLPBR-107  | PLA+                    | Brown              
+AHPLPBW-102  | PLA+                    | Bright White       
+AHPLPBW-A108 | PLA+ Refill             | White              
+AHPLPCG-107  | PLA+                    | Green              
+AHPLPCG-A108 | PLA+ Refill             | Green              
+AHPLPDB-102  | PLA+                    | Dazzling Blue      
+AHPLPDB-A108 | PLA+ Refill             | Blue               
+AHPLPGE-107  | PLA+                    | Grey               
+AHPLPGF-102  | PLA+                    | Green Flash        
+AHPLPGY-102  | PLA+                    | Texture Grey       
+AHPLPGY-A108 | PLA+ Refill             | Texture Grey       
+AHPLPLB-101  | PLA+                    | Light Blue         
+AHPLPLB-108  | PLA+                    | Beige              
+AHPLPO-105   | PLA Basic               | Purple             
+AHPLPO-A106  | PLA Basic Refill        | Purple             
+AHPLPPO-102  | PLA+                    | Purple Opulence    
+AHPLPPO-A108 | PLA+ Refill             | Purple             
+AHPLPRR-A108 | PLA+                    | Red                
+AHPLPSL-102  | PLA+                    | Silver             
+AHPLPSP-107  | PLA+                    | Pink               
+AHPLPSP-A108 | PLA+ Refill             | Pink               
+AHPLPVO-102  | PLA+                    | Vibrant Orange     
+AHPLPVO-A108 | PLA+ Refill             | Orange             
+AHPLPVY-101  | PLA+                    | Vibrant Yellow     
+AHPLPVY-A108 | PLA+ Refill             | Yellow             
+AHPLRR-105   | PLA Basic               | Red                
+AHPLRR-A106  | PLA Basic Refill        | Red                
+AHPLSL-105   | PLA Basic               | Texture Silver     
+AHPLSP-105   | PLA Basic               | Pink               
+AHPLSP-A106  | PLA Basic Refill        | Pink               
+AHPLVO-105   | PLA Basic               | Orange             
+AHPLVO-A106  | PLA Basic Refill        | Orange             
+AHPLVY-105   | PLA Basic               | Yellow             
+AHPLVY-A106  | PLA Basic Refill        | Yellow             
+AHSC07-102   | PLA Silk Dual/Tri-Color | Black Gold         
+AHSC08-102   | PLA Silk Dual/Tri-Color | Black Blue         
+AHSC09-102   | PLA Silk Dual/Tri-Color | Black Green        
+AHSC10-102   | PLA Silk Dual/Tri-Color | Black Purple       
+AHSC11-102   | PLA Silk Dual/Tri-Color | Pink Gold          
+AHSC12-102   | PLA Silk Dual/Tri-Color | Red Gold           
+AHSC13-102   | PLA Silk Dual/Tri-Color | Red Blue           
+AHSC14-102   | PLA Silk Dual/Tri-Color | Blue Green Purple  
+AHSC15-102   | PLA Silk Dual/Tri-Color | Red Yellow Green   
+AHSC16-102   | PLA Silk Dual/Tri-Color | Blue Green         
+AHSC17-102   | PLA Silk Dual/Tri-Color | Black Red          
+AHSC18-102   | PLA Silk Dual/Tri-Color | Red Blue Yellow    
+AHSCBL-102   | PLA Silk                | Blue               
+AHSCCG-102   | PLA Silk                | Christmas Green    
+AHSCCO-102   | PLA Silk                | Copper             
+AHSCCR-102   | PLA Silk                | Christmas Red      
+AHSCGD-102   | PLA Silk                | Light Gold         
+AHSCGR-102   | PLA Silk                | Green              
+AHSCPK-102   | PLA Silk                | Pink               
+AHSCPU-102   | PLA Silk                | Purple             
+AHSCRB1-102  | PLA Silk                | Rainbow            
+AHSCSG-102   | PLA Silk                | Shiny Gold         
+AHSCSL-102   | PLA Silk                | Silver             
+AHSCWH-102   | PLA Silk                | White              
+AHXKGB-101   | PLA Galaxy              | Galaxy Brown       
+AHXKGG-101   | PLA Galaxy              | Galaxy Green       
+AHXKGL-101   | PLA Galaxy              | Galaxy Blue        
+AHXKGP-101   | PLA Galaxy              | Galaxy Purple      
+HABBK-102    | ABS Filament            | Black              
+HABGY-102    | ABS Filament            | Grey               
+HABWH-102    | ABS Filament            | White              
+HASBK-101    | ASA Filament            | Black              
+HASBL-102    | ASA Filament            | Blue               
+HASGR-102    | ASA Filament            | Green              
+HASGY-101    | ASA Filament            | Gray               
+HASRE-101    | ASA Filament            | Red                
+HASWH-101    | ASA Filament            | White              
+HFGBE-103    | PLA Glow                | Blue               
+HFGBL-101    | PLA Glow                | Glow Blue          
+HFGGN-103    | PLA Glow                | Green              
+HFGGR-101    | PLA Glow                | Glow Green         
+HFGYE-103    | PLA Glow                | Glow Yellow        
+HHSBK-101    | PLA High Speed          | Black              
+HHSBL-101    | PLA High Speed          | Blue               
+HHSGR-102    | PLA High Speed          | Green              
+HHSOR-102    | PLA High Speed          | Vibrant Orange     
+HHSRE-101    | PLA High Speed          | Red                
+HHSWH-101    | PLA High Speed          | Bright White       
+HJSMB-101    | PLA Metal               | Metal Black        
+HJSMC-101    | PLA Metal               | Metal Champagne    
+HJSML-101    | PLA Metal               | Metal Blue         
+HJSMO-101    | PLA Metal               | Metal Copper       
+HPL16-101    | PLA Special             | Peach Pink         
+HPL16-105    | PLA Special             | Peach Pink         
+HPL17-101    | PLA Special             | Interstellar Violet
+HPL17-105    | PLA Special             | Interstellar Violet
+HPL18-101    | PLA Special             | Tropical Turquoise 
+HPL18-105    | PLA Special             | Tropical Turquoise 
+HPL19-101    | PLA Special             | Spring Leaf        
+HPL19-105    | PLA Special             | Spring Leaf        
+HSCGY-101    | PLA Silk                | Gray               
+HSCML-101    | PLA Silk                | Metal Blue         
+HTPBK-101    | TPU Filament            | Black              
+HTPCB-101    | TPU Filament            | Blue               
+HTPCG-101    | TPU Filament            | Green              
+HTPCL-101    | TPU Filament            | Clear              
+HTPCO-101    | TPU Filament            | Orange             
+HTPCP-101    | TPU Filament            | Purple             
+HTPCR-101    | TPU Filament            | Red                
+HTPGY-101    | TPU Filament            | Grey               
+HTPMW-101    | TPU Filament            | Milky White        
+HYGBK-101    | PLA Matte               | Black              
+HYGBL-102    | PLA Matte               | Blue               
+HYGGB-102    | PLA Matte               | Green-Brown        
+HYGGR-102    | PLA Matte               | Green              
+HYGGY-102    | PLA Matte               | Grey               
+HYGIB-102    | PLA Matte               | Ice Blue           
+HYGOR-102    | PLA Matte               | Orange             
+HYGPU-102    | PLA Matte               | Purple             
+HYGRB-102    | PLA Matte               | Red-Blue           
+HYGRE-102    | PLA Matte               | Red                
+HYGSP-102    | PLA Matte               | Sakura Pink        
+HYGWT-101    | PLA Matte               | White              
+HYGYL-101    | PLA Matte               | Yellow   
+
 # SKU-Conclusion
 - A? → optional “Anycubic” prefix
 - H → main header
