@@ -896,7 +896,7 @@ python ac_filament_sku_sniffer.py \
 ## Pretty-Table (terminal fitted) :-)
 <img width="1171" height="587" alt="image" src="https://github.com/user-attachments/assets/5290d8a4-6b25-4f5c-9099-bfaa1093520e" />
 
-# Deep dive into SKU interpretation
+# Deep dive into SKU interpretation (demystify?)
 | Segment | Meaning | Example | Comment |
 |----------|----------|----------|----------|
 | **A** | Series / generation prefix (optional) | `A` in `AHPLBK-105` | Usually stands for *Anycubic* or a series ID |
