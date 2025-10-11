@@ -806,8 +806,7 @@ python ac_filament_sku_sniffer.py \
 | PLA Glow | 37.19 USD | Green | HFGGN-103 | https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl |
 | PLA Glow | 30.99 USD | Green | HFGGN-103 | https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl |
 
-### Eindeutige Farben
-
+### Color, Color-Code, Filaments
 | Color | ID | Products |
 | --- | --- | --- |
 | Black Gold | 07 | PLA Silk Dual/Tri-Color |
@@ -887,5 +886,5 @@ python ac_filament_sku_sniffer.py \
 | Glow Yellow | YE | PLA Glow |
 | Yellow | YL | PLA Matte |
 
-## Pretty-Table
+## Pretty-Table (terminal fitted) :-)
 <img width="1171" height="587" alt="image" src="https://github.com/user-attachments/assets/5290d8a4-6b25-4f5c-9099-bfaa1093520e" />
