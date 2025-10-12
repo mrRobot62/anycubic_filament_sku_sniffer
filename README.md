@@ -90,8 +90,7 @@ python ac_filament_sku_sniffer.py \
 ## generated Markdown-Table
 > **Note** Markdown code is rendered in Git as nice table output. So, Markdown-Output is only usefull if you like to publish on websites or you use a Markdown-Editor to print PDFs ....
 
-### Varianten 
-
+### Filament Varianten 
 | Product | Price | Color | SKU | Source |
 | --- | --- | --- | --- | --- |
 | PLA Basic | 17.99 USD | Black | AHPLBK-105 | https://store.anycubic.com/products/pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl |
@@ -914,7 +913,7 @@ python ac_filament_sku_sniffer.py \
 <img width="1171" height="587" alt="image" src="https://github.com/user-attachments/assets/5290d8a4-6b25-4f5c-9099-bfaa1093520e" />
 
 
-## Complete list of SKUs, Colors, Filaments
+# Complete list of SKUs, Colors, Filaments
 | SKU | Filament | Color |
 | --- | --- | --- |
 | AHHSBK-102 | PLA High Speed | Black |
