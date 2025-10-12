@@ -1,5 +1,9 @@
-
 # Deep dive into SKU interpretation (demystify?)
+This document summarizes the **personal interpretation of the SKU prefixes** used by Anycubic to encode filament type, subtype, and sometimes series characteristics. Maybe there are some misinterpretations.
+
+It’s based on cross-referencing packaging, NFC dumps, and SKU naming consistency.
+
+## 🧩 General SKU format
 | Segment | Meaning | Example | Comment |
 |----------|----------|----------|----------|
 | **A** | Series / generation prefix (optional) | `A` in `AHPLBK-105` | Usually stands for *Anycubic* or a series ID |
@@ -11,7 +15,39 @@
 > `H`=Hotend maybe these SKUs are for FDM-Filaments. Will check if resin have simlar codings
 ---
 
-## 2️⃣ Breakdown by Material Type
+# 🧩 Special Series Codes
+
+| Series | Prefix | Notes |
+|---------|---------|-------|
+| **PLA Special / Limited** | `HPL16–HPL19` | Numbered limited edition colors (Spring Leaf, Tropical Turquoise, etc.) |
+| **PLA Silk Dual/Tri-Color** | `AHSC07–AHSC18` | Color index defines gradient combination |
+| **PLA Glow** | `HFGxx` | “FG” = Fluorescent Glow – phosphorescent pigments |
+| **PLA Matte** | `HYGxx` | “YG” reused from internal “Young Gloss” series |
+| **PLA Galaxy** | `AHXKxx` | “XK” stylized for “Extra Sparkle” / “Kaleidoscope” |
+| **PLA Metal** | `HJSxx` | “Jet Shine” metallic finish |
+
+## 🧩 Key Prefix Component Meanings
+
+| Code | Likely Meaning | Verified | Explanation |
+|------|----------------|-----------|-------------|
+| **A** | Anycubic / Series A | x | Brand or product generation prefix |
+| **H** | Head / Hotend material tag | x | Appears in all SKUs |
+| **PL** | PLA Basic | x | Polylactic Acid |
+| **PLP** | PLA+ | x | “PLA Plus” enhanced variant |
+| **HS** | High Speed | x | Fast printing formulation |
+| **LS** | Limestone / Stone | x | Used for Marble effect |
+| **SC** | Silk Color | x | Glossy silk PLA |
+| **XK** | eXtra Kaleidoscope / Sparkle | ? | Galaxy series with glitter |
+| **JS** | Jet Shine | x | Metallic pigment line |
+| **YG** | Young Gloss (Matte) | ? | Internal label for matte surface series |
+| **FG** | Fluorescent Glow | x | Glow-in-the-dark |
+| **PE** | PETG | x | Polyethylene Terephthalate Glycol |
+| **AS** | ASA | x | Acrylic Styrene Acrylonitrile |
+| **AB** | ABS | x | Acrylonitrile Butadiene Styrene |
+| **TP** | TPU | x | Thermoplastic Polyurethane |
+| **PLxx** | Special PLA | x | Numeric color indexes (16–19) |
+
+## Breakdown by Material Type
 
 ### 🧵 PLA (Basic)
 - **Examples:** `AHPLBK-105`, `AHPLGY-105`  
@@ -132,7 +168,7 @@
 
 ---
 
-## 3️⃣ Special Observations
+## Special Observations
 
 | Phenomenon | Explanation |
 |-------------|--------------|
@@ -146,7 +182,7 @@
 
 ---
 
-## 4️⃣ Master Prefix Map
+## Master Prefix Map
 
 | Prefix | Meaning | Filament Type |
 |---------|----------|---------------|
@@ -167,7 +203,7 @@
 
 ---
 
-## 5️⃣ Meaning of Letter Blocks
+## Meaning of Letter Blocks
 
 | Code Block | Meaning | Comment |
 |-------------|----------|----------|
@@ -189,6 +225,9 @@
 | **HPLxx** | PLA Special Edition | Numeric color identifiers |
 
 ---
+
+
+
 # SKU-Conclusion
 - A? → optional “Anycubic” prefix
 - H → main Header or perhaps a reference to the hotend (because of product type: filament)
