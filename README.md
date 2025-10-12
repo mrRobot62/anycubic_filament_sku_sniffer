@@ -1,4 +1,4 @@
-# Inspire by
+# Inspired by
 GitRepo from Molodos https://github.com/Molodos/anycubic-nfc-filament.git. I recognized, that SKUs are important for writing NFC-Tags. Problem: get the right SKU. Molodos started a research with customers but this is not easy, time consuming and maybe prone to errors.
 
 I started my own research to understand SKU and afterall, I parsed Anycubis websites and luckily they provide filament SKUs.
