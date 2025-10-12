@@ -15,7 +15,7 @@ It’s based on cross-referencing packaging, NFC dumps, and SKU naming consisten
 > `H`=Hotend maybe these SKUs are for FDM-Filaments. Will check if resin have simlar codings
 ---
 
-# 🧩 Special Series Codes
+## 🧩 Special Series Codes
 
 | Series | Prefix | Notes |
 |---------|---------|-------|
@@ -226,8 +226,6 @@ It’s based on cross-referencing packaging, NFC dumps, and SKU naming consisten
 
 ---
 
-
-
 # SKU-Conclusion
 - A? → optional “Anycubic” prefix
 - H → main Header or perhaps a reference to the hotend (because of product type: filament)
@@ -242,6 +240,8 @@ The Anycubic SKU structure is consistent and logically organized:
 - Refill versions always include an extra “A” before the numeric code
 
 My subjective impression is that the color codes are not exactly unique but depend on the sub-type.
+
+For this project I used **ChatGPT** for researching and interpretation
 
 
 
