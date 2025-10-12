@@ -1103,3 +1103,5 @@ python ac_filament_sku_sniffer.py \
 | HYGWT-101 | PLA Matte | White |
 | HYGYL-101 | PLA Matte | Yellow |
 
+# Demystify SKU
+please read second markdown file 
