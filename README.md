@@ -25,13 +25,16 @@ uhhh, source code comments and help were written in German - sorry guys - I forg
 - print url inside table
 - create a unique-color table additionally
 
+```
 python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/petg-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result_en_md2.txt --unique-colors --region us --md
+```
 
 # Example 2: Sniff all US-Filaments (English names)
+```
 python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/high-speed-pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
@@ -52,8 +55,11 @@ python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-metal-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result_en.txt --unique-colors --region us
+```
+
 
 # Example 3: Sniff all DE-Filaments (German names)
+```
 python ac_filament_sku_sniffer.py \
 --url "https://de.anycubic.com/products/pla-filament?variant=32866809217101" \
 --url "https://de.anycubic.com/products/high-speed-pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
@@ -74,13 +80,17 @@ python ac_filament_sku_sniffer.py \
 --url "https://de.anycubic.com/products/pla-metal-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://de.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result.txt
+```
+
 
 # Example Output (US/EN-Names)
 
 > **NOTE:** Do not wonder about same color several times. Reason is, that it is possible to order on US-Sides but ship to coutries outside US like EU/UK/OTHERS with different prices
 
-## Markdown-Table
-### Varianten
+## generated Markdown-Table
+> **Note** Markdown code is rendered in Git as nice table output. So, Markdown-Output is only usefull if you like to publish on websites or you use a Markdown-Editor to print PDFs ....
+
+### Varianten 
 
 | Product | Price | Color | SKU | Source |
 | --- | --- | --- | --- | --- |
