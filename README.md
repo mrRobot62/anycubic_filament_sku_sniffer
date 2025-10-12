@@ -1,3 +1,10 @@
+# Inspire by
+GitRepo from Molodos https://github.com/Molodos/anycubic-nfc-filament.git. I recognized, that SKUs are important for writing NFC-Tags. Problem: get the right SKU. Molodos started a research with customers but this is not easy, time consuming and maybe prone to errors.
+
+I started my own research to understand SKU and afterall, I parsed Anycubis websites and luckily they provide filament SKUs.
+
+The Idea of this sniffer was born
+
 # How to use the sniffer :-)
 
 ## Parameters
@@ -12,7 +19,7 @@ uhhh, source code comments and help were written in German - sorry guys - I forg
 
 **BTW:** if somebody is interested in: Anycubic use Shopify as e-commerce software
 
-# Simple US-Example with three US-Websides
+# Example 1: Sniff three US-Websides (three different Filaments)
 - output into a file
 - use markdown as output table
 - print url inside table
@@ -24,7 +31,7 @@ python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result_en_md2.txt --unique-colors --region us --md
 
-# All US-Filaments (English names)
+# Example 2: Sniff all US-Filaments (English names)
 python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --url "https://store.anycubic.com/products/high-speed-pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
@@ -46,7 +53,7 @@ python ac_filament_sku_sniffer.py \
 --url "https://store.anycubic.com/products/pla-glow?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
 --with-source --out result_en.txt --unique-colors --region us
 
-# All DE-Filaments (German names)
+# Example 3: Sniff all DE-Filaments (German names)
 python ac_filament_sku_sniffer.py \
 --url "https://de.anycubic.com/products/pla-filament?variant=32866809217101" \
 --url "https://de.anycubic.com/products/high-speed-pla-filament?_sasdk=faW5mb0BtYmstZ2JyLmRl" \
