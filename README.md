@@ -5,6 +5,10 @@ I started my own research to understand SKU and afterall, I parsed Anycubis webs
 
 The Idea of this sniffer was born
 
+Due to some strange errors on Molodos software I decided to write my own NFC Writer. (https://github.com/mrRobot62/AnycubicNFCTaggerQT5).
+This software is 100% writte in Python as a local QT5 app and provide all Anycubic filaments with all color combinations.
+Read & Write NFC Tags is very easy and ACE Pro recogniced this new NFC Tag with correct filament and color scheme.
+
 # How to use the sniffer :-)
 
 ## Parameters
